@@ -4,8 +4,7 @@ class Biblioteca:
         self.libros = []
 
     def agregar_libro(self,libro):
-        if libro not in self.libros:
-            self.libros.append(libro)
+        self.libros.append(libro)
 
 
 class Libro:
